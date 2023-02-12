@@ -3,23 +3,30 @@
 
 <head>
     <title>CRUD</title>
-    <link href="style.css" rel="StyleSheet">
+    <link href="/view/style.css" rel="StyleSheet">
 </head>
 
 <body>
     <h1 class="crud">
         C-R-U-D
     </h1><br>
-    <h1>Update Phone Number :</h1>
+    <div class="center-div">
+        <div class="inner-div">
+            <h2 class="center-val">Update Phone Number :</h2>
+            <h1></h1>
 
-    <form action="updatePhone" method="post">
-        <lable>Regester Number :</lable>
-        <input type="number" name="regNum" placeholder="ex:2013032"><br><br>
+            <form action="updatePhone" method="post">
+                <lable>Regester Number :</lable>
+                <input type="number" name="regNum" placeholder="ex:2013032"><br><br>
 
-        <lable>New Phone Number :</lable>
-        <input type="number" name="phoneNum" placeholder="ex:9876543210"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+                <lable>New Phone Number :</lable>
+                <input type="number" name="phoneNum" placeholder="ex:9876543210"><br><br>
+                <div class="submit">
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -3,7 +3,7 @@
 
 <head>
     <title>CRUD</title>
-    <link href="style.css" rel="StyleSheet">
+    <link href="/view/style.css" rel="StyleSheet">
 </head>
 
 <body>
@@ -12,15 +12,18 @@
     </h1>
 
     <br>
-    <h1>
-        Delete :
-    </h1><br><br>
-    <form action="delete" method="post">
-        <lable>Regester Number</lable>
-        <input type="number" name="stdRegNum" placeholder="ex:2013032">
-        <br><br>
-        <input type="submit" value="submit">
-    </form>
+    <div class="center-div">
+        <div class="inner-div">
+            <h2 class="center-val">Delete :</h2>
+
+            <form action="delete" method="post">
+                <lable>Regester Number</lable>
+                <input type="number" name="stdRegNum" placeholder="ex:2013032">
+                <br><br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

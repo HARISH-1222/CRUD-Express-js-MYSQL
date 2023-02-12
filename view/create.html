@@ -2,9 +2,21 @@
 <html>
 
 <head>
-    <title>CRUD</title>
-    <link href="style.css" rel="StyleSheet">
+    <meta charset="utf-8">
+    <title>Test-1 Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="/view/style.css" rel="Stylesheet">
+    <!-- <style></style> -->
 </head>
+<!-- 
+<head>
+    <title>CRUD</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> 
+
+    <link href="style.css" rel="Stylesheet">
+</head> -->
 
 <body>
     <h1 class="crud">
@@ -12,19 +24,33 @@
     </h1>
 
     <br>
+    <!-- 
     <h1>
         Create :
-    </h1><br><br><br>
-    <form action="/insert" method="post">
-        <lable>Name :</lable>
-        <input type="text" name="name" placeholder="ex : Harish" class="name"> <br><br>
-        <lable>RegNum :</lable>
-        <input type="text" name="regNum" placeholder="ex : 2013032" class="regNum"><br><br>
-        <lable>Phone-Number :</lable>
-        <input type="number" name="phoneNum" placeholder="ex : 93453......" class="phoneNum"><br><br><br>
-        <input type="submit" value="submit">
-    </form>
+    </h1> -->
+    <br><br><br>
 
+    <div class="center-div">
+        <div class="inner-div">
+            <h2 class="center-val">create</h2>
+            <form action="/insert" method="post">
+                <lable>Name :</lable><br>
+                <input class="input-box" type="text" name="name" placeholder="ex : Harish" class="name"> <br><br>
+                <lable>RegNum :</lable><br>
+                <input class="input-box" type="text" name="regNum" placeholder="ex : 2013032" class="regNum"><br><br>
+                <lable>Phone-Number :</lable><br>
+                <input class="input-box" type="number" name="phoneNum" placeholder="ex : 93453......"
+                    class="phoneNum"><br><br><br>
+                <div class="submit">
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script> -->
     <script src="script.js"></script>
 </body>
 
